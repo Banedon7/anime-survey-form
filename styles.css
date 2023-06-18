@@ -8,7 +8,13 @@ html {
 }
 
 body {
-  background-image: url('img/fondo-anime.webp');
+  background-image: url('img/fondo-anime-mobile.webp');
+  background-size: cover;
   background-repeat: no-repeat;
+  height: 100vh;
 }
 
+.main {
+  color: white;
+  background-color: rgb(135, 206, 250,0.2);
+}
