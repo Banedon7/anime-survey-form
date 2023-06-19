@@ -8,7 +8,7 @@ html {
 }
 
 body {
-  background-image: url('img/fondo-anime-mobile.webp');
+  background-image: url("img/anime-7914238_1280.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -18,10 +18,23 @@ body {
 
 .main {
   color: white;
-  background-color: rgb(135, 206, 250,0.2);
+  background-color: rgb(135, 206, 250, 0.2);
 }
 
-#survey-form {
+.title {
+  text-align: center;
+  font-size: 2.05rem;
+  margin-bottom: 0;
+}
+
+.description {
+  text-align: center;
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.survey-form {
   display: flex;
   flex-direction: column;
 }
