@@ -11,10 +11,17 @@ body {
   background-image: url('img/fondo-anime-mobile.webp');
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
+  background-position: center;
+  height: 100%;
+  opacity: 0.9;
 }
 
 .main {
   color: white;
   background-color: rgb(135, 206, 250,0.2);
+}
+
+#survey-form {
+  display: flex;
+  flex-direction: column;
 }
