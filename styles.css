@@ -21,28 +21,30 @@ body {
   background-color: rgb(135, 206, 250, 0.2);
 }
 
-.title {
+#title {
   text-align: center;
   font-size: 2.1rem;
   margin-bottom: 0;
 }
 
-.description {
+#description {
   text-align: center;
   margin-top: 0.5rem;
   font-size: 1.2rem;
   font-weight: bold;
 }
 
-.survey-form {
+#survey-form {
   display: flex;
   flex-direction: column;
 }
 
-.survey-form input[type="text"],
+#survey-form input[type="text"],
 input[type="email"],
 input[type="number"] {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
   font-size: 1.2rem;
 }
+
+
