@@ -56,4 +56,10 @@ input[type="number"] {
 
 .paragraph {
   font-size: 1.2rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.8rem;
+}
+
+#dropdown {
+  font-size: 1.2rem;
 }
