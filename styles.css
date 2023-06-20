@@ -47,4 +47,9 @@ input[type="number"] {
   font-size: 1.2rem;
 }
 
-
+#name-label,
+#email-label,
+#number-label {
+  margin-top: 0.3rem;
+  font-size: 1.2rem;
+}
