@@ -14,6 +14,7 @@ body {
   background-position: center;
   height: 100%;
   opacity: 0.85;
+  font-size: 1.2rem;
 }
 
 .main {
@@ -30,7 +31,6 @@ body {
 #description {
   text-align: center;
   margin-top: 0.5rem;
-  font-size: 1.2rem;
   font-weight: bold;
 }
 
@@ -44,22 +44,16 @@ input[type="email"],
 input[type="number"] {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
-  font-size: 1.2rem;
 }
 
 #name-label,
 #email-label,
 #number-label {
   margin-top: 0.3rem;
-  font-size: 1.2rem;
 }
 
 .paragraph {
-  font-size: 1.2rem;
   margin-top: 1.5rem;
   margin-bottom: 0.8rem;
 }
 
-#dropdown {
-  font-size: 1.2rem;
-}
