@@ -73,3 +73,9 @@ button {
   letter-spacing: 2px;
   background-color: transparent;
 }
+
+@media (min-width: 992px) {
+  body {
+     background-image: url("img/fondo-computadora.webp");
+  }
+}
