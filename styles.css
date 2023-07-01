@@ -78,4 +78,10 @@ button {
   body {
      background-image: url("img/fondo-computadora.webp");
   }
+
+  .main {
+  background-color: rgba(255, 255, 255, 0);
+  padding-top: 0.1rem;
+}
+
 }
