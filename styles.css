@@ -89,7 +89,13 @@ button {
   #survey-form {
     align-self: flex-end;
     width: 40%;
+    margin: 0 2rem 1rem 0;
     padding: 0.5rem 0.75rem;
+  }
+
+  #survey-form:hover {
+    background-color: rgba(82, 126, 238, 0.2);
+    cursor: pointer;
   }
 
   #title {
