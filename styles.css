@@ -86,6 +86,12 @@ button {
     flex-direction: column;
   }
 
+  #title,
+  #description {
+    text-align: left;
+    margin-left: 8.5rem;
+  }
+
   #survey-form {
     align-self: flex-end;
     width: 40%;
@@ -94,17 +100,13 @@ button {
   }
 
   #survey-form:hover {
+    transition: 0.5s;
     background-color: rgba(82, 126, 238, 0.2);
+    box-shadow: 0.3rem 0.3rem 0.3rem rgba(0, 0, 0, 0.8);
+  }
+
+  button:hover {
     cursor: pointer;
-  }
-
-  #title {
-    text-align: left;
-    margin-left: 8.5rem;
-  }
-
-  #description {
-    text-align: left;
-    margin-left: 8.5rem;
+    background-color: rgba(255, 255, 255, 0.7);
   }
 }
